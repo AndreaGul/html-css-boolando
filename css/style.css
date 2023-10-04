@@ -11,17 +11,70 @@
 .container {
   margin: 0 auto;
   width: 80%;
+  padding: 60px 0;
 }
 
 .row {
   display: flex;
+}
+
+.disp-box {
   flex-wrap: wrap;
   gap: 10px;
 }
 
 .box {
-  height: 100px;
   width: calc((100% / 3) - 20px);
+}
+.cont-img {
+  position: relative;
+}
 
+.box img {
+  width: 100%;
+  display: block;
+}
+
+.sconto {
   background-color: red;
+}
+
+.disp-box .piu-info {
+  position: absolute;
+  left: 0;
+  top: 80%;
+}
+
+.sostenibilita {
+  background-color: green;
+}
+
+.box-piu {
+  padding: 8px 10px;
+  margin-right: 5px;
+  color: white;
+}
+
+.cuore {
+  position: absolute;
+  right: 0;
+  top: 3%;
+}
+
+.box-cuore {
+  padding: 14px 16px;
+  color: black;
+  background-color: white;
+}
+
+.box-cuore:hover {
+  color: red;
+}
+
+.prezzo-new {
+  color: red;
+}
+
+.prezzo-old {
+  text-decoration-line: line-through;
 }
