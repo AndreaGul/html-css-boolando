@@ -120,6 +120,14 @@
   color: red;
 }
 
+main h3 {
+  font-size: 14px;
+}
+
+main h4 {
+  font-size: 14px;
+}
+
 /* colore del prezzo nuovo */
 .prezzo-new {
   color: red;
