@@ -6,13 +6,12 @@
   box-sizing: border-box;
 }
 
-/* ********** main ********* */
+/* **** common *** */
 
 /* delimita lo spazio usato dagli box */
 .container {
   margin: 0 auto;
   width: 80%;
-  padding: 60px 0;
 }
 /* /delimita lo spazio usato dagli box */
 
@@ -21,12 +20,52 @@
   display: flex;
 }
 /*  /permette di posizonare i box uno affianco all'altro */
+/* **** common *** */
 
-/* permette in poszionamento dei box uno sull'altro */
+/* ********** header ********* */
+header {
+  height: 70px;
+  background-color: #ff6900;
+}
+
+.cont-top {
+  justify-content: space-between;
+  padding: 30px 5px;
+}
+
+.cont-top li {
+  margin: 0 5px;
+}
+
+.cont-top ul {
+  list-style: none;
+}
+
+.cont-top a {
+  color: white;
+  text-decoration: none;
+}
+
+.cont-top img {
+  width: 25%;
+}
+
+.cont-logo {
+  width: 40%;
+  text-align: center;
+  vertical-align: middle;
+}
+
+/* ********** header ********* */
+
+/* ********** main ********* */
+
+/* permette in poszionamento dei box uno sull'altro e li distanzia da ll'header e il footer */
 .disp-box {
   flex-wrap: wrap;
+  padding: 60px 0;
 }
-/* /permette in poszionamento dei box uno sull'altro */
+/* /permette in poszionamento dei box uno sull'altro e li distanzia da ll'header e il footer */
 
 /* conteniore con tutte le infomazioni del capo */
 .box {
@@ -139,3 +178,5 @@ main h4 {
   text-decoration-line: line-through;
 }
 /* prezzo vecchio cancellato con una linea */
+
+/* ********** main ********* */
