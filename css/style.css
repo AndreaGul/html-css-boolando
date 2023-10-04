@@ -49,20 +49,23 @@
 
 /* /grandezza dell'immagine */
 
-/* seconda immagine del capo che apparare quando si passa il mouse sopra */
-.hidden-capo {
-  position: absolute;
+/* passando il mouse sopra la prima immagine diventa invisibile e mostra l asecondaimagine sotto */
+
+/* img1 invisibile */
+.hide-capo1:hover {
   visibility: hidden;
+}
+/* /img1 invisibile */
+
+/* posizionamento img 2 sotto img1 */
+.hide-capo2 {
+  position: absolute;
   top: 0;
-  z-index: 1;
+  z-index: -1;
 }
+/* /posizionamento img 2 sotto img1 */
 
-.hidden-capo:hover {
-  visibility: visible;
-  z-index: 2;
-}
-
-/* seconda immagine del capo che apparare quando si passa il mouse sopra */
+/* passando il mouse sopra la prima immagine diventa invisibile e mostra l asecondaimagine sotto */
 
 /* posizione di infomazioni aggiuntive rispetto all'immagine */
 .disp-box .piu-info {
