@@ -32,6 +32,7 @@
 .box {
   width: calc((100% / 3) - 20px);
   margin: 0px 10px;
+  padding-bottom: 50px;
 }
 /* /conteniore con tutte le infomazioni del capo */
 
@@ -91,7 +92,7 @@
 
 /* dimensione del box che ha al suo interno le infomazioni aggiuntive */
 .box-piu {
-  padding: 8px 10px;
+  padding: 6px 10px;
   margin-right: 5px;
   color: white;
 }
