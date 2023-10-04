@@ -23,38 +23,53 @@
 /* **** common *** */
 
 /* ********** header ********* */
+
+/* grandezza dell'header e colore */
 header {
   height: 70px;
   background-color: #ff6900;
 }
+/* /grandezza dell'header e colore */
 
+/* dimensione del contenitore e spazziatura dei suo elemnti all'interno */
 .cont-top {
   justify-content: space-between;
   padding: 30px 5px;
 }
+/* /dimensione del contenitore e spazziatura dei suo elemnti all'interno */
 
+/* spaziamento dei vari link tra di loro */
 .cont-top li {
   margin: 0 5px;
 }
+/* /spaziamento dei vari link tra di loro */
 
+/* rimozione dei puntini dalle liste */
 .cont-top ul {
   list-style: none;
 }
+/* /rimozione dei puntini dalle liste */
 
+/* colore dei link e rimozione della linea al di sotto */
 .cont-top a {
   color: white;
   text-decoration: none;
 }
+/* /colore dei link e rimozione della linea al di sotto */
 
+/* grandezza del logo boolean */
 .cont-top img {
   width: 25%;
 }
+/* /grandezza del logo boolean */
 
+/* grasndezza del contenitore del logo boolean e il suo posizionamenot all'interno */
 .cont-logo {
   width: 40%;
   text-align: center;
   vertical-align: middle;
 }
+/* /grasndezza del contenitore del logo boolean e il suo posizionamenot all'interno */
 
 /* ********** header ********* */
 
