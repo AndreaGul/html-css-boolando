@@ -8,73 +8,122 @@
 
 /* ********** main ********* */
 
+/* delimita lo spazio usato dagli box */
 .container {
   margin: 0 auto;
   width: 80%;
   padding: 60px 0;
 }
+/* /delimita lo spazio usato dagli box */
 
+/*  permette di posizonare i box uno affianco all'altro */
 .row {
   display: flex;
 }
+/*  /permette di posizonare i box uno affianco all'altro */
 
+/* permette in poszionamento dei box uno sull'altro */
 .disp-box {
   flex-wrap: wrap;
-  gap: 10px;
 }
+/* /permette in poszionamento dei box uno sull'altro */
 
+/* conteniore con tutte le infomazioni del capo */
 .box {
   width: calc((100% / 3) - 20px);
+  margin: 0px 10px;
 }
+/* /conteniore con tutte le infomazioni del capo */
+
+/* posizionamento dell'immagine del capo */
 .cont-img {
   position: relative;
 }
+/* /posizionamento dell'immagine del capo */
 
+/* grandezza dell'immagine */
 .box img {
   width: 100%;
   display: block;
 }
 
-.sconto {
-  background-color: red;
+/* /grandezza dell'immagine */
+
+/* seconda immagine del capo che apparare quando si passa il mouse sopra */
+.hidden-capo {
+  position: absolute;
+  visibility: hidden;
+  top: 0;
+  z-index: 1;
 }
 
+.hidden-capo:hover {
+  visibility: visible;
+  z-index: 2;
+}
+
+/* seconda immagine del capo che apparare quando si passa il mouse sopra */
+
+/* posizione di infomazioni aggiuntive rispetto all'immagine */
 .disp-box .piu-info {
+  z-index: 10;
   position: absolute;
   left: 0;
   top: 80%;
 }
 
+/* posizione di infomazioni aggiuntive rispetto all'immagine */
+
+/* colore della percentualer dello sconto */
+.sconto {
+  background-color: red;
+}
+/* /colore della percentualer dello sconto */
+
+/* colore delle caratteristiche del capo */
 .sostenibilita {
   background-color: green;
 }
+/* /colore delle caratteristiche del capo */
 
+/* dimensione del box che ha al suo interno le infomazioni aggiuntive */
 .box-piu {
   padding: 8px 10px;
   margin-right: 5px;
   color: white;
 }
+/* dimensione del box che ha al suo interno le infomazioni aggiuntive */
 
+/* posizione del box del cuore rispetto all'immagine*/
 .cuore {
+  z-index: 10;
   position: absolute;
   right: 0;
   top: 3%;
 }
+/* posizione del box del cuore rispetto all'immagine*/
 
+/* dimensione box del cuore */
 .box-cuore {
-  padding: 14px 16px;
+  padding: 12px 14px;
   color: black;
   background-color: white;
 }
+/* /dimensione box del cuore */
 
+/* al passare del mouse sopra il box del cuore il cuore diventa rosso */
 .box-cuore:hover {
   color: red;
 }
 
+/* colore del prezzo nuovo */
 .prezzo-new {
   color: red;
 }
+/* colore del prezzo nuovo */
 
+/* prezzo vecchio cancellato con una linea */
 .prezzo-old {
   text-decoration-line: line-through;
 }
+/* prezzo vecchio cancellato con una linea */
