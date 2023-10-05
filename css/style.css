@@ -98,9 +98,11 @@ main {
 }
 /* /permette in poszionamento dei box uno sull'altro e li distanzia da ll'header e il footer */
 
+/* rimuovo il margine laterale dei box */
 .products {
   margin: 0 -10px;
 }
+/* /rimuovo il margine laterale dei box */
 
 /* conteniore con tutte le infomazioni del capo */
 .box {
@@ -168,7 +170,7 @@ main {
 
 /* dimensione del box che ha al suo interno le infomazioni aggiuntive */
 .box-piu {
-  padding: 6px 10px;
+  padding: 4px 10px;
   margin-right: 5px;
   color: white;
 }
