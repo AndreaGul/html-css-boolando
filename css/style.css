@@ -50,7 +50,7 @@ header {
 /* dimensione del contenitore e spazziatura dei suo elemnti all'interno */
 .cont-top {
   justify-content: space-between;
-  padding: 30px 5px;
+  padding: 30px 0px;
 }
 /* /dimensione del contenitore e spazziatura dei suo elemnti all'interno */
 
@@ -93,14 +93,19 @@ main {
 /* permette in poszionamento dei box uno sull'altro e li distanzia da ll'header e il footer */
 .disp-box {
   flex-wrap: wrap;
+
   padding: 60px 0;
 }
 /* /permette in poszionamento dei box uno sull'altro e li distanzia da ll'header e il footer */
 
+.products {
+  margin: 0 -10px;
+}
+
 /* conteniore con tutte le infomazioni del capo */
 .box {
   width: calc((100% / 3) - 20px);
-  margin: 0px 10px;
+  margin: 0 10px;
   padding-bottom: 50px;
 }
 /* /conteniore con tutte le infomazioni del capo */
