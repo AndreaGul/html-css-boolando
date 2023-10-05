@@ -99,6 +99,8 @@ header {
 /* posizionamento dell'immagine del capo */
 .cont-img {
   position: relative;
+  top: 0;
+  left: 0;
 }
 /* /posizionamento dell'immagine del capo */
 
