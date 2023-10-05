@@ -132,16 +132,16 @@ main {
 
 /* posizionamento img 2 sotto img1 */
 .hide-capo2 {
-  display: none;
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: opacity 0.4s linear;
 }
 /* /posizionamento img 2 sotto img1 */
 
-.cont-img:hover .hide-capo2 {
-  display: block;
-}
-
-.cont-img:hover .hide-capo1 {
-  display: none;
+.images:hover .hide-capo2 {
+  opacity: 1;
 }
 
 /* passando il mouse sopra la prima immagine diventa invisibile e mostra l asecondaimagine sotto */
