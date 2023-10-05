@@ -41,6 +41,9 @@
 header {
   height: 70px;
   background-color: #ff6900;
+  position: fixed;
+  width: 100%;
+  z-index: 99;
 }
 /* /grandezza dell'header e colore */
 
@@ -80,6 +83,12 @@ header {
 /* ********** header ********* */
 
 /* ********** main ********* */
+
+/* margin top per dividere l'header */
+main {
+  padding-top: 70px;
+}
+/* /margin top per dividere l'header */
 
 /* permette in poszionamento dei box uno sull'altro e li distanzia da ll'header e il footer */
 .disp-box {
