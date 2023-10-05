@@ -130,19 +130,19 @@ main {
 
 /* passando il mouse sopra la prima immagine diventa invisibile e mostra l asecondaimagine sotto */
 
-/* img1 invisibile */
-.hide-capo1:hover {
-  visibility: hidden;
-}
-/* /img1 invisibile */
-
 /* posizionamento img 2 sotto img1 */
 .hide-capo2 {
-  position: absolute;
-  top: 0;
-  z-index: -1;
+  display: none;
 }
 /* /posizionamento img 2 sotto img1 */
+
+.cont-img:hover .hide-capo2 {
+  display: block;
+}
+
+.cont-img:hover .hide-capo1 {
+  display: none;
+}
 
 /* passando il mouse sopra la prima immagine diventa invisibile e mostra l asecondaimagine sotto */
 
